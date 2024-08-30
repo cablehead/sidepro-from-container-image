@@ -7,6 +7,10 @@ To deploy:
 ```bash
 sidepro push \
     --name sidepro-from-container-image \
-    --container-image-url ghcr.io/cablehead/sidepro-from-container-image:latest \
+    --container-image-url ghcr.io/cablehead/sidepro-from-container-image:<image-digest> \
     --port 80
 ```
+
+Result:
+
+https://sidepro-from-container-image.platform.beta.sidepro.app
