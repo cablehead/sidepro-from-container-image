@@ -1,6 +1,6 @@
-This repo is a minimal setup to build a container image, an then push it to
-github's container registry, which can then be pushed to
-[sidepro](https://docs.sidepro.cloud/).
+This repo is a minimal setup to build a container image and then push it to
+GitHub's container registry, which can subsequently be deployed to
+[Sidepro](https://docs.sidepro.cloud/).
 
 ```shell
 % git ls-files
