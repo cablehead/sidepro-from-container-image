@@ -15,7 +15,7 @@ To deploy:
 ```shell
 sidepro push \
     --name sidepro-from-container-image \
-    --container-image-url ghcr.io/cablehead/sidepro-from-container-image:<image-digest> \
+    --container-image-url ghcr.io/cablehead/sidepro-from-container-image@<image-digest> \
     --port 80
 ```
 
